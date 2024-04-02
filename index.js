@@ -17,3 +17,7 @@ function calculate() {
   }
 }
 
+//added the backspace function
+function backspace() {
+   display.value = display.value.toString().slice(0, -1);
+}
